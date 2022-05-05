@@ -1,0 +1,3 @@
+User-Agent: *
+Sitemap: https://kfachas.github.io/projet4/index.html
+Allow: /*
