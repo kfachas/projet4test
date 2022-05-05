@@ -789,13 +789,13 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-  background: #f3976c;
-  color: #ffffff !important;
+  background: #000;
+  color: #fff !important;
 }
 
 .btn-atomic-tangerine:hover {
-  background: #c27956 !important;
-  color: #ffffff !important;
+  border: 1px solid #fff;
+  text-decoration: underline;
 }
 
 .ltc-white {
