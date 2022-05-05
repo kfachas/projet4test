@@ -1,4 +1,3 @@
-# BEGIN Cache-Control Headers
 <IfModule mod_headers.c>
 <FilesMatch "\.(ico|jpe?g|png|gif|swf|css|gz|avif|bmp)$">
 Header set Cache-Control "max-age=2592000, public"
@@ -9,9 +8,8 @@ Header set Cache-Control "max-age=2592000, private"
 <filesMatch "\.(html|htm)$">
 Header set Cache-Control "max-age=7200, public"
 </filesMatch>
-# Enleve le cache pour les ressources dynamiques
+
 <FilesMatch "\.(pl|php|cgi|spl|scgi|fcgi)$">
 Header unset Cache-Control
 </FilesMatch>
 </IfModule>
-# END Cache-Control Headers
