@@ -706,6 +706,14 @@ p {
   margin: auto auto auto auto;
 }
 
+.social > span {
+  color: #fff !important;
+  transition: 0.3s;
+}
+.social > span:hover {
+  color: #000 !important;
+}
+
 h2 {
   font-size: 22px;
   line-height: 1.4em;
