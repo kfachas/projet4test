@@ -746,7 +746,7 @@ h4 {
 }
 
 .white {
-  color: #ffffff !important;
+  color: #fff !important;
 }
 
 .portfolio-thumb {
@@ -1080,4 +1080,12 @@ h4 {
   font-size: 22px;
   margin: 0 auto;
   padding-top: 10px;
+}
+
+.relative {
+  position: relative;
+}
+
+.footer-title {
+  color: #575757 !important;
 }
